@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Alarm/static/css/main.a6584226.css",
-    "main.js": "/Alarm/static/js/main.b715f1b9.js",
+    "main.js": "/Alarm/static/js/main.40cff4d3.js",
     "static/js/845.93ee15b3.chunk.js": "/Alarm/static/js/845.93ee15b3.chunk.js",
     "static/js/787.64b197b2.chunk.js": "/Alarm/static/js/787.64b197b2.chunk.js",
     "static/media/Narayan.mp3": "/Alarm/static/media/Narayan.24641d105cd393bf1b90.mp3",
@@ -9,12 +9,12 @@
     "static/media/Sun.png": "/Alarm/static/media/Sun.f6c0b73cd528b282bc13.png",
     "index.html": "/Alarm/index.html",
     "main.a6584226.css.map": "/Alarm/static/css/main.a6584226.css.map",
-    "main.b715f1b9.js.map": "/Alarm/static/js/main.b715f1b9.js.map",
+    "main.40cff4d3.js.map": "/Alarm/static/js/main.40cff4d3.js.map",
     "845.93ee15b3.chunk.js.map": "/Alarm/static/js/845.93ee15b3.chunk.js.map",
     "787.64b197b2.chunk.js.map": "/Alarm/static/js/787.64b197b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6584226.css",
-    "static/js/main.b715f1b9.js"
+    "static/js/main.40cff4d3.js"
   ]
 }
