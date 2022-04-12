@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import react,{useState} from "react";
+import Morning from "./Components/Jsx/Morning";
+import Nignt from "./Components/Jsx/Nignt";
+// import Alarm from "./Components/Jsx/Alarm";
 
 function App() {
+  const time= new Date()
+  const [decide, setdecide] = useState(time.getHours());
+  setInterval(() => {
+    setdecide(time.getHours())
+    console.log("checked");
+  }, 1800000);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {(decide>18||decide<6)?<Nignt/>:<Morning/>}
+      {/* <Morning/> */}
+      {/* <Alarm/> */}
+    </>
   );
 }
 
