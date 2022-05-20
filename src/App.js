@@ -12,6 +12,7 @@ function App() {
   }, 1800000);
   return (
     <>
+    
       {(decide>18||decide<6)?<Nignt/>:<Morning/>}
       {/* <Morning/> */}
       {/* <Alarm/> */}
